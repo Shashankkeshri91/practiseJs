@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="Index.css" >
+</head>
+<body>
+    <h1>PASSWORD GENERATOR</h1><br><br>
+    <div class="flex-container">
+    <label for="pwd" >Enter the length of Password</label>
+    <input type="text" placeholder="Enter The Length" id="pwd">
+    </div>
+    <div class="all-inc">
+<div class="inc-c">
+    <label for="include-capital">Include Capital Letters</label>
+    <input type="checkbox" id="include-capital">
+</div>
+<div class="inc-s">
+    <label for="include-small">Include Small Letters</label>
+    <input type="checkbox" id="include-small">
+</div>
+<div class="inc-n">
+    <label for="include-numbers">Include Numbers</label>
+    <input type="checkbox" id="include-numbers">
+        
+</div>
+<div class="inc-s">
+    <label for="include-symbols">Include Symbols</label>
+    <input type="checkbox" id="include-symbols">
+</div>
+        
+</div>
+
+<button id="generate-button" class="btn">Generate Password</button>
+<p id="password-result"></p>
+<script src="Index.js"></script>
+
+    
+</body>
+</html>
